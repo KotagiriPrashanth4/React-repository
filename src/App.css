@@ -1,0 +1,138 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Root Element */
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #333; /* Dark background for nav */
+  display: flex; /* Flexbox for horizontal layout */
+  gap: 15px; /* Spacing between links */
+  padding: 10px; /* Padding around nav */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+nav a {
+  color: #fff; /* White text */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Spacing around links */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+nav a:hover {
+  background-color: #575757; /* Light background on hover */
+  color: #fff; /* White text on hover */
+}
+
+/* Active Link Style */
+nav a.active {
+  background-color: #007BFF; /* Highlight active link */
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+/* Product Page Styles */
+h1 {
+  color: #333; /* Heading color */
+}
+
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0; /* Remove padding */
+}
+
+li {
+  background: #fff; /* White background for items */
+  margin: 10px 0; /* Spacing between items */
+  padding: 15px; /* Padding inside items */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: flex;
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF; /* Button background */
+  color: white; /* Button text color */
+  cursor: pointer;
+  transition: background 0.3s; /* Transition effect */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Cart Page Styles */
+.cart-item {
+  display: flex;
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+  background: #fff; /* White background */
+  padding: 15px;
+  margin: 10px 0; /* Spacing between cart items */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.cart-summary {
+  margin-top: 20px; /* Spacing above summary */
+  background: #fff; /* White background */
+  padding: 15px;
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Input Field Styles */
+input[type="text"] {
+  padding: 10px;
+  margin: 10px 0; /* Spacing above/below input */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
+  width: calc(100% - 22px); /* Full width minus padding */
+}
+
+/* Not Found Page */
+.not-found {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.not-found h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.not-found a {
+  text-decoration: none;
+  color: #007BFF;
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  padding: 20px;
+  background: #333; /* Dark background */
+  color: white; /* White text */
+  text-align: center; /* Centered text */
+}
