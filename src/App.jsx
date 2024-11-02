@@ -25,6 +25,7 @@ function App() {
     <GoogleOAuthProvider clientId="552019023310-g811aaqq1ke5nc8pmubpn84kag56sove.apps.googleusercontent.com"><GoogleLoginComponent /></GoogleOAuthProvider>
       <nav>
         <h1>This is Modification File</h1>
+        <h2>Thers is someone</h2>
         <Link to='/home'><i className="fas fa-home"></i> Home</Link>
         <Link to='/veg'><i className="fas fa-carrot"></i> Veg</Link>
         <Link to='/non-veg'><i className="fas fa-drumstick-bite"></i> Non-Veg</Link>
